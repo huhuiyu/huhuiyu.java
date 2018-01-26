@@ -1,0 +1,10 @@
+version = "1.0.0.0"
+
+jar {
+    baseName = "huhuiyu.freemarker"
+    version =  "1.0.0.0"
+}
+
+dependencies {
+	compile group: "org.freemarker", name: "freemarker", version: "2.3.23"
+}

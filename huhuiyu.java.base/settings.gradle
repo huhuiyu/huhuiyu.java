@@ -1,0 +1,25 @@
+include ":huhuiyu.java.temp"
+project(":huhuiyu.java.temp").projectDir = new File(settingsDir, "../huhuiyu.java.temp")
+
+include ":huhuiyu.beanutil"
+project(":huhuiyu.beanutil").projectDir = new File(settingsDir, "../huhuiyu.beanutil")
+
+include ":huhuiyu.utils"
+project(":huhuiyu.utils").projectDir = new File(settingsDir, "../huhuiyu.utils")
+
+include ":huhuiyu.fileutil"
+project(":huhuiyu.fileutil").projectDir = new File(settingsDir, "../huhuiyu.fileutil")
+
+include ":huhuiyu.xml"
+project(":huhuiyu.xml").projectDir = new File(settingsDir, "../huhuiyu.xml")
+
+include ":huhuiyu.freemarker"
+project(":huhuiyu.freemarker").projectDir = new File(settingsDir, "../huhuiyu.freemarker")
+
+include ":huhuiyu.database"
+project(":huhuiyu.database").projectDir = new File(settingsDir, "../huhuiyu.database")
+
+include ":huhuiyu.frame"
+project(":huhuiyu.frame").projectDir = new File(settingsDir, "../huhuiyu.frame")
+
+rootProject.name = "huhuiyu.java.base"

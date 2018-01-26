@@ -1,0 +1,11 @@
+version = "1.0.0.0"
+
+jar {
+    baseName = "huhuiyu.fileutil"
+    version =  "1.0.0.0"
+}
+
+dependencies {
+	compile project(":huhuiyu.utils")
+	testCompile group: "junit", name: "junit", version: "4.12"
+}

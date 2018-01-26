@@ -1,0 +1,10 @@
+version = "1.0.0.0"
+
+jar {
+    baseName = "huhuiyu.frame"
+    version =  "1.0.0.0"
+}
+
+dependencies {
+	compile project(":huhuiyu.beanutil")
+}

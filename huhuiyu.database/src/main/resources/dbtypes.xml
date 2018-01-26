@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<types xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="dbtypes.xsd">
+	<!-- 基本数据映射 -->
+	<type className="java.lang.Boolean" shortName="boolean" />
+	<type className="java.lang.Byte" shortName="byte" />
+	<type className="java.lang.Short" shortName="short" />
+	<type className="java.lang.Integer" shortName="int" />
+	<type className="java.lang.Long" shortName="long" />
+	<type className="java.lang.Float" shortName="float" />
+	<type className="java.lang.Double" shortName="double" />
+	<type className="java.lang.String" shortName="String" />
+	<type className="[B" mapClassName="byte[]" shortName="byte[]"
+		pkName="byte[]" pkShortName="byte[]" />
+	<!-- 其它数据映射 -->
+	<type className="oracle.sql.TIMESTAMP" mapClassName="java.sql.Timestamp" />
+	<type className="oracle.sql.DATE" mapClassName="java.sql.Date" />
+	<type className="java.math.BigInteger" mapClassName="java.lang.Long" />
+
+</types>

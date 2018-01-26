@@ -1,0 +1,10 @@
+version = "1.0.0.0"
+
+jar {
+    baseName = "huhuiyu.beanutil"
+    version =  "1.0.0.0"
+}
+
+dependencies {
+	compile group: "commons-beanutils", name: "commons-beanutils", version: "1.9.3"
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="types">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" minOccurs="0" ref="type" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="type">
+		<xs:complexType>
+			<xs:attribute name="className" type="xs:string" use="required" />
+			<xs:attribute name="mapClassName" type="xs:string" use="optional" />
+			<xs:attribute name="shortName" type="xs:string" use="optional" />
+			<xs:attribute name="pkName" type="xs:string" use="optional" />
+			<xs:attribute name="pkShortName" type="xs:string" use="optional" />
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

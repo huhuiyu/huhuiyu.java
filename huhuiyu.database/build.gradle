@@ -1,0 +1,14 @@
+version = "1.0.0.0"
+
+jar {
+    baseName = "huhuiyu.database"
+    version =  "1.0.0.0"
+}
+
+dependencies {
+	compile project(":huhuiyu.beanutil")
+	compile project(":huhuiyu.fileutil")
+	compile project(":huhuiyu.utils")
+	compile project(":huhuiyu.freemarker")
+	compile group: "dom4j", name: "dom4j", version: "1.6.1"
+}

@@ -1,0 +1,11 @@
+version = "1.0.0.0"
+
+jar {
+    baseName = "huhuiyu.xml"
+    version =  "1.0.0.0"
+}
+
+dependencies {
+	compile project(":huhuiyu.fileutil")
+	compile group: "com.thoughtworks.xstream", name: "xstream", version: "1.4.10"
+}

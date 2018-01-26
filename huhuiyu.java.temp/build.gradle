@@ -1,0 +1,6 @@
+version = "1.0.0.0"
+
+jar {
+    baseName = "huhuiyu.java.temp"
+    version =  "1.0.0.0"
+}
